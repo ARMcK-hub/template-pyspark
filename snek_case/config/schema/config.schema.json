@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/schema",
-    "title": "template-python Config",
-    "description": "template-python Configuration Schema",
+    "title": "template-pyspark Config",
+    "description": "template-pyspark Configuration Schema",
     "type": "object",
     "required": [
         "snek_type"

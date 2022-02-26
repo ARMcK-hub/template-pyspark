@@ -2,38 +2,38 @@
 <div align="center">
     <p>
     <!-- Header -->
-        <img width="100px" src="./ini/readme_logo.png"  alt="template-python" />
-        <h2>template-python</h2>
-        <p><i>cool-template-python-tagline</i></p>
+        <img width="100px" src="./ini/readme_logo.png"  alt="template-pyspark" />
+        <h2>template-pyspark</h2>
+        <p><i>cool-template-pyspark-tagline</i></p>
     </p>
     <p>
     <!-- Shields -->
-        <a href="https://github.com/armck-hub/template-python/LICENSE">
-            <img alt="License" src="https://img.shields.io/github/license/armck-hub/template-python.svg" />
+        <a href="https://github.com/armck-hub/template-pyspark/LICENSE">
+            <img alt="License" src="https://img.shields.io/github/license/armck-hub/template-pyspark.svg" />
         </a>
-        <a href="https://github.com/armck-hub/template-python/actions">
-            <img alt="Tests Passing" src="https://github.com/armck-hub/template-python/workflows/CI/badge.svg" />
+        <a href="https://github.com/armck-hub/template-pyspark/actions">
+            <img alt="Tests Passing" src="https://github.com/armck-hub/template-pyspark/workflows/CI/badge.svg" />
         </a>
-        <a href="https://codecov.io/gh/armck-hub/template-python">
-            <img alt="Code Coverage" src="https://codecov.io/gh/armck-hub/template-python/branch/master/graph/badge.svg" />
+        <a href="https://codecov.io/gh/armck-hub/template-pyspark">
+            <img alt="Code Coverage" src="https://codecov.io/gh/armck-hub/template-pyspark/branch/master/graph/badge.svg" />
         </a>
-        <a href="https://github.com/armck-hub/template-python/issues">
-            <img alt="Issues" src="https://img.shields.io/github/issues/armck-hub/template-python" />
+        <a href="https://github.com/armck-hub/template-pyspark/issues">
+            <img alt="Issues" src="https://img.shields.io/github/issues/armck-hub/template-pyspark" />
         </a>
-        <a href="https://github.com/armck-hub/template-python/pulls">
-            <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/armck-hub/template-python" />
+        <a href="https://github.com/armck-hub/template-pyspark/pulls">
+            <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/armck-hub/template-pyspark" />
         </a>
-        <a href="https://stackshare.io/armck-hub/template-python">
+        <a href="https://stackshare.io/armck-hub/template-pyspark">
             <img alt="StackShare.io" src="http://img.shields.io/badge/tech-stack-0690fa.svg?label=StackShare.io">
         </a>
     </p>
     <p>
     <!-- Links -->
         <a href="#demo">View Demo</a>
-        ·
-        <a href="https://github.com/armck-hub/template-python/issues/new/choose">Report Bug</a>
-        ·
-        <a href="https://github.com/armck-hub/template-python/issues/new/choose">Request Feature</a>
+        ?
+        <a href="https://github.com/armck-hub/template-pyspark/issues/new/choose">Report Bug</a>
+        ?
+        <a href="https://github.com/armck-hub/template-pyspark/issues/new/choose">Request Feature</a>
     </p>
 </div>
 <br>
@@ -42,7 +42,7 @@
 <!-- Description -->
 Here is where you can you a much longer description of your project. You might include features and inspiration here.
 
-The `template-python` repository adds some nifty and time-saving features like:
+The `template-pyspark` repository adds some nifty and time-saving features like:
 - *All of the benefits of [template-ubuntu](https://github.com/ARMcK-hub/template-ubuntu) PLUS..*
 - Various Python Development tools 
   - Environments via Poetry
