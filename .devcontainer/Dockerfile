@@ -1,10 +1,10 @@
 
-FROM armck/python-base:latest
+FROM armck/pyspark-base:latest
 
 # ----- Environment Setup -----
 
 # Set Workspace directory
-ARG WORKSPACE=/workspaces/template-python
+ARG WORKSPACE=/workspaces/template-pyspark
 ENV WORKSPACE=${WORKSPACE}
 
 # Avoid warnings by switching to noninteractive

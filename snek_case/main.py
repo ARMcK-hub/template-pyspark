@@ -3,7 +3,7 @@ from typing import List
 from snek_case.core import JsonConfigurationProvider
 from snek_case.sneks import CoolSnek, NormalSnek, Snek
 
-CONFIG_FILE = "/workspaces/template-python/snek_case/config/config.json"
+CONFIG_FILE = "/workspaces/template-pyspark/snek_case/config/config.json"
 
 
 def main(snek_type: str) -> None:
