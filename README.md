@@ -29,10 +29,10 @@
     </p>
     <p>
     <!-- Links -->
-        <a href="#demo">View Demo</a>
-        ?
+        <a href="#">View Demo</a>
+        ·
         <a href="https://github.com/armck-hub/template-pyspark/issues/new/choose">Report Bug</a>
-        ?
+        ·
         <a href="https://github.com/armck-hub/template-pyspark/issues/new/choose">Request Feature</a>
     </p>
 </div>
