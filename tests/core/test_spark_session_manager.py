@@ -1,3 +1,4 @@
+import pytest
 from snek_case.core import JsonConfigurationProvider, SparkSessionManager
 
 # TODO
@@ -10,23 +11,31 @@ class TestConfigurationProvider(JsonConfigurationProvider):
 
 
 def test_can_create() -> None:
-    cp = TestConfigurationProvider()
-    sm = SparkSessionManager(cp)
+    # Assemble
+    config = TestConfigurationProvider()
 
-    sm.initialize()
+    # Act / Assert
+    SparkSessionManager(config)
 
 
 def test_can_initialize() -> None:
-    pass
+    # Assemble
+    config = TestConfigurationProvider()
+    spark = SparkSessionManager(config)
+
+    # Act / Assert
+    spark.initialize()
 
 
+@pytest.mark.skip("Needs to run independant")
 def test_can_add_additional_config() -> None:
-    pass
+    # Assemble
+    config = TestConfigurationProvider()
+    additional_config = {"spark.app.name": "test_app"}
 
+    # Act
+    spark_manager = SparkSessionManager(config, additional_config)
+    spark = spark_manager.initialize()
 
-def test_can_get_new() -> None:
-    pass
-
-
-def test_new_matches_current_config() -> None:
-    pass
+    # Assert
+    assert spark.sparkContext.appName == "test_app"

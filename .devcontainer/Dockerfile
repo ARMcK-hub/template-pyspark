@@ -1,5 +1,5 @@
 
-FROM armck/python-base:latest
+FROM armck/pyspark-base:latest
 
 # ----- Environment Setup -----
 
