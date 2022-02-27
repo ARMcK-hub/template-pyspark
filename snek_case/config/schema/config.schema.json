@@ -4,9 +4,15 @@
     "description": "template-pyspark Configuration Schema",
     "type": "object",
     "required": [
+        "app_name",
         "snek_type"
     ],
     "properties": {
+        "app_name": {
+            "type": "string",
+            "default": "snek_case",
+            "description": "Name of this application, used at run-time setup"
+        },
         "snek_type": {
             "type": "string",
             "default": "cool",
