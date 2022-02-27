@@ -3,16 +3,14 @@ from typing import Dict
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 
-from .configuration_provider import ConfigurationProvider
-
 
 class SparkSessionManager:
     def __init__(
         self,
-        configuration_provider: ConfigurationProvider,
+        app_name: str = "sparkApp",
         session_config: Dict[str, str] = {},
     ) -> None:
-        self.__config_provider = configuration_provider
+        self.__app_name = app_name
         self.__session_config = session_config
         self.__initialized = False
 
@@ -30,9 +28,11 @@ class SparkSessionManager:
 
     def __get_base_builder(self) -> SparkSession.Builder:
         # returns builder with base configuration
-        app_name = self.__config_provider.get("app_name")
         builder = (
-            SparkSession.Builder().master("local").appName(app_name).enableHiveSupport()
+            SparkSession.Builder()
+            .master("local")
+            .appName(self.__app_name)
+            .enableHiveSupport()
         )
         return builder
 
