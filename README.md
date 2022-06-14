@@ -8,22 +8,22 @@
     </p>
     <p>
     <!-- Shields -->
-        <a href="https://github.com/armck-hub/template-pyspark/LICENSE">
-            <img alt="License" src="https://img.shields.io/github/license/armck-hub/template-pyspark.svg" />
+        <a href="https://github.com/armckinney/template-pyspark/LICENSE">
+            <img alt="License" src="https://img.shields.io/github/license/armckinney/template-pyspark.svg" />
         </a>
-        <a href="https://github.com/armck-hub/template-pyspark/actions">
-            <img alt="Tests Passing" src="https://github.com/armck-hub/template-pyspark/workflows/CI/badge.svg" />
+        <a href="https://github.com/armckinney/template-pyspark/actions">
+            <img alt="Tests Passing" src="https://github.com/armckinney/template-pyspark/workflows/CI/badge.svg" />
         </a>
-        <a href="https://codecov.io/gh/armck-hub/template-pyspark">
-            <img alt="Code Coverage" src="https://codecov.io/gh/armck-hub/template-pyspark/branch/master/graph/badge.svg" />
+        <a href="https://codecov.io/gh/armckinney/template-pyspark">
+            <img alt="Code Coverage" src="https://codecov.io/gh/armckinney/template-pyspark/branch/master/graph/badge.svg" />
         </a>
-        <a href="https://github.com/armck-hub/template-pyspark/issues">
-            <img alt="Issues" src="https://img.shields.io/github/issues/armck-hub/template-pyspark" />
+        <a href="https://github.com/armckinney/template-pyspark/issues">
+            <img alt="Issues" src="https://img.shields.io/github/issues/armckinney/template-pyspark" />
         </a>
-        <a href="https://github.com/armck-hub/template-pyspark/pulls">
-            <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/armck-hub/template-pyspark" />
+        <a href="https://github.com/armckinney/template-pyspark/pulls">
+            <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/armckinney/template-pyspark" />
         </a>
-        <a href="https://stackshare.io/armck-hub/template-pyspark">
+        <a href="https://stackshare.io/armck/template-pyspark">
             <img alt="StackShare.io" src="http://img.shields.io/badge/tech-stack-0690fa.svg?label=StackShare.io">
         </a>
     </p>
@@ -31,9 +31,9 @@
     <!-- Links -->
         <a href="#">View Demo</a>
         ·
-        <a href="https://github.com/armck-hub/template-pyspark/issues/new/choose">Report Bug</a>
+        <a href="https://github.com/armckinney/template-pyspark/issues/new/choose">Report Bug</a>
         ·
-        <a href="https://github.com/armck-hub/template-pyspark/issues/new/choose">Request Feature</a>
+        <a href="https://github.com/armckinney/template-pyspark/issues/new/choose">Request Feature</a>
     </p>
 </div>
 <br>
@@ -43,7 +43,7 @@
 Here is where you can you a much longer description of your project. You might include features and inspiration here.
 
 The `template-pyspark` repository adds some nifty and time-saving features like:
-- *All of the benefits of [template-python](https://github.com/ARMcK-hub/template-python) PLUS..*
+- *All of the benefits of [template-python](https://github.com/armckinney/template-python) PLUS..*
 - Pyspark Installation
   - Java SDK
   - Pyspark
